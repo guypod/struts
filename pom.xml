@@ -72,7 +72,7 @@
             <name>The Apache Software License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
-            <comments />
+            <comments/>
         </license>
     </licenses>
 
@@ -83,7 +83,7 @@
 
     <properties>
         <currentVersion>${project.version}</currentVersion>
-        <struts2.springPlatformVersion>4.1.6.RELEASE</struts2.springPlatformVersion>
+        <struts2.springPlatformVersion>4.1.7.RELEASE</struts2.springPlatformVersion>
         <ognl.version>3.1.15</ognl.version>
         <asm.version>5.2</asm.version>
         <tiles.version>3.0.7</tiles.version>
@@ -474,7 +474,7 @@
             <dependency>
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker</artifactId>
-                <version>2.3.26-incubating</version>
+                <version>2.3.30</version>
             </dependency>
 
             <dependency>
@@ -708,7 +708,7 @@
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.5</version>
+                <version>2.7</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -868,7 +868,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>5.14.10</version>
+                <version>7.3.0</version>
                 <scope>compile</scope>
                 <optional>true</optional>
             </dependency>
